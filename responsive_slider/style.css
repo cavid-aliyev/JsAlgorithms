@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    /* box-sizing: border-box; */
+}
+
+html, body {
+    font-size: 18px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 30px auto;
+    background: #f1f1f1;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h3, h4 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin: 20px 0 30px 0;
+}
+
+
+button {
+    background: none;
+    border: 1px solid black;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+.out-block {
+    font-size: 1rem;
+    font-family: monospace;
+}
+
+
+
+
+
+.slider {
+    border: 2px solid black;
+    /* width: 100%; */
+    max-width: 80%;
+    /* height: 300px; */
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+.slider-line {
+    width: 1024px;
+    display: flex;
+    background: orange;
+    transition: all ease 1s;
+}
